@@ -10,17 +10,17 @@ Some of our classes and strukts are not connected to any other class. The reason
 
 ```haskell 
 main :: IO ()
-putStrLn "input text here"
+main = putStrLn "input text here"
 ```
 
 # Activity
 ```haskell 
 main :: IO ()
-putStrLn "input text here"
+main = putStrLn "input text here"
 ```
 
 # Components
 ```haskell 
 main :: IO ()
-putStrLn "input text here"
+main = putStrLn "input text here"
 ```
