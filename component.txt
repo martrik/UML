@@ -1,0 +1,5 @@
+components:
+	model (browserstate, browserengine)
+	view (headerview, uiview)
+	controller (observer, webviewobserver)
+	
