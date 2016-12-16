@@ -1,3 +1,5 @@
+## Group 14
+
 # Class Diagram
 
 ## Constructors, Getters, and Setters
@@ -33,8 +35,3 @@ We omitted the "Going to the next page" Action Diagram, as this action is very s
 For each Action Diagram, we also designed a Sequence Diagram to illustrate the flow of an action with less abstraction from the actual code.
 
 # Component Diagram
-
-
-
-
-
