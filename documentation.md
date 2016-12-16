@@ -37,7 +37,7 @@ For Activity and Sequence Diagrams, we decided to focus on the essential actions
 
 We omitted the "Going to the next page" Activity Diagram, as this action is very similar to "Going to the previous page".
 
-For each Activity Diagram, we also designed a Sequence Diagram to illustrate the flow of an action with less abstraction from the actual code.The Refresh Button sequence diagram shows all the logic that takes place in the Model. We have omitted this in the other two diagrams.
+We designed several Sequence Diagrams to show how different classes interact with each other when a task is carried out. For each Activity Diagram, we designed a Sequence Diagram to illustrate the flow of an action with less abstraction from the actual code.The Refresh Button sequence diagram shows all the logic that takes place in the Model. We have omitted this in the other two diagrams.
 
 In each Sequence Diagram, we did not use the formal notation of "object:Class" for each object because when we did include that, the sequence diagram did not fit into one page, and therefore was difficult to read when converted to PDF.
 
