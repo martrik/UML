@@ -35,9 +35,11 @@ For Activity and Sequence Diagrams, we decided to focus on the essential actions
 - Going to the previous page
 - Accessing the URL
 
-We omitted the "Going to the next page" Action Diagram, as this action is very similar to "Going to the previous page".
+We omitted the "Going to the next page" Activity Diagram, as this action is very similar to "Going to the previous page".
 
-For each Action Diagram, we also designed a Sequence Diagram to illustrate the flow of an action with less abstraction from the actual code. The Refresh Button sequence diagram shows all the logic that takes place in the Model. We have omitted this in the other two diagrams.
+For each Activity Diagram, we also designed a Sequence Diagram to illustrate the flow of an action with less abstraction from the actual code.The Refresh Button sequence diagram shows all the logic that takes place in the Model. We have omitted this in the other two diagrams.
+
+In each Sequence Diagram, we did not use the formal notation of "object:Class" for each object because when we did include that, the sequence diagram did not fit into one page, and therefore was difficult to read when converted to PDF.
 
 # Component Diagram
 In our component diagram, we showed how our three main components (View, Controller and Model) and their classes interact with one another. Our diagram is drawn in a cycle, where a RequestEntry is entered to the Application and an Output to Screen is returned.
