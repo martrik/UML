@@ -24,7 +24,6 @@ Each element in _View_ implements the observer pattern enabling the webbrowser t
 
 # Activity and Sequence Diagram
 For Activity and Sequence Diagrams, we decided to focus on the essential actions that our browser should allow. We have 4 Activity Diagrams, namely:
-- Initializing
 - Refreshing the webpage
 - Going to the previous page
 - Accessing the URL
