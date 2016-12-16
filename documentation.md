@@ -8,7 +8,12 @@ For the sake of brevity and in order to keep the UML as compact as possible we d
 ## Classes and structs without connections
 Some of our classes and structs are not connected to any other class. The reason for that is that they are never "associated" or kept as a state anywhere in the program, but are just temporary intermediate results which are returned by one function and immediately consumed by another one.
 
+## Excluding Render Engine
+In our Class Diagram, we have decided to exclude the Render Engine because...
+
 ## Design Patterns
+These are the design patterns that we have included and the main classes in our Class Diagram that are used to implement each Design Pattern.
+
 ### Model View Controller
 
 ### Singleton
@@ -25,7 +30,7 @@ Each element in _View_ implements the observer pattern enabling the webbrowser t
 
 
 # Activity and Sequence Diagram
-For Activity and Sequence Diagrams, we decided to focus on the essential actions that our browser should allow. We have 4 Activity Diagrams, namely:
+For Activity and Sequence Diagrams, we decided to focus on the essential actions that our browser should allow. We have 3 Activity Diagrams, namely:
 - Refreshing the webpage
 - Going to the previous page
 - Accessing the URL
@@ -35,3 +40,4 @@ We omitted the "Going to the next page" Action Diagram, as this action is very s
 For each Action Diagram, we also designed a Sequence Diagram to illustrate the flow of an action with less abstraction from the actual code. The Refresh Button sequence diagram shows all the logic that takes place in the Model. We have omitted this in the other two diagrams.
 
 # Component Diagram
+In our component diagram, we showed how our three main components (View, Controller and Model) and their classes interact with one another. Our diagram is drawn in a cycle, where a RequestEntry is entered to the Application and an Output to Screen is returned.
